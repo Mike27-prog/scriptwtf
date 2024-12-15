@@ -1,4 +1,4 @@
-setfpscap(3)
+setfpscap(5)
 wait(5)
 getgenv().Config = {
     ["EquipEnchants"] = {"Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Strong Pets", "Coins", "Fortune"},
