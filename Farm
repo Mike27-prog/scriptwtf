@@ -19,11 +19,7 @@ getgenv().Config = {
                 ["Golden Pencil"] = 50,
                 ["Diamond Pencil"] = 25,
                 ["Rainbow Pencil"] = 10,
-                ["Mini Pinata"] = 400,
-            },
-            ["Ultimate"] = {
-                ["Chest Spell"] = 1,
-            }  
+            } 
         },
         ["MailAllHuges"] = true
     },
