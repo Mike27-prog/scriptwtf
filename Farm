@@ -1,8 +1,35 @@
 setfpscap(5)
-wait(5)
+wait(1)
 getgenv().Config = {
-    ["EquipEnchants"] = {"Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Strong Pets", "Coins", "Fortune"},
-    ["UserID"] = "626903756835127296",
-    ["Webhook"] = "https://discord.com/api/webhooks/1245695779532963981/VCY5eY4E1MVGludmeakcD0yjoQZp1d1RuAZSXL0kyGb0FDj3wG7mVf35pDlkLzhIcY7b"
+    ["Farming"] = {
+        ["AutoEvents"] = {"Party Box"},
+        ["AutoOpen"] = {"Gift Bag", "Large Gift Bag", "Mini Chest", "Diamond Gift Bag", "Rainbow Mini Chest", "Charm Stone", "Enchant Bundle", "Large Enchant Bundle", "Potion Bundle", "Large Potion Bundle", "Flag Bundle", "Fruit Bundle", "Toy Bundle"},
+        ["AutoFlags"] = {"Fortune Flag"}
+    },
+    ["Mailing"] = {
+        ["Usernames"] = {"DeafenedToAll", "YoBotGirlyPop5", "YoBotGirlyPop6", "NUGW8abt41", "CMARAg6f03", "W1ALDIY4503", "YoBotBoyPuppy1", "YoBotBoyPuppy4", "YoBotGirlyPop7", "YoBotGirlyPop8"},
+        ["Items"] = {
+            ["Currency"] = {
+                ["Diamonds"] = 20000000,
+            },
+            ["Egg"] = {
+                ["Huge Machine Egg 4"] = 1,
+            },
+            ["Misc"] = {
+                ["Golden Pencil"] = 50,
+                ["Diamond Pencil"] = 25,
+                ["Rainbow Pencil"] = 10,
+                ["Mini Pinata"] = 400,
+            },
+            ["Ultimate"] = {
+                ["Chest Spell"] = 1,
+            }  
+        },
+        ["MailAllHuges"] = true
+    },
+    ["Notifications"] = {
+        ["UserID"] = "626903756835127296",
+        ["Webhook"] = "https://discord.com/api/webhooks/1245695779532963981/VCY5eY4E1MVGludmeakcD0yjoQZp1d1RuAZSXL0kyGb0FDj3wG7mVf35pDlkLzhIcY7b"
+    }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b883bc159a5f609adb4871db6fc15ea8.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/83e3e1375d5a7c51c79df057fe9ea9e2.lua"))()
